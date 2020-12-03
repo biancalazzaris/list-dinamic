@@ -10,8 +10,8 @@ btAdd.addEventListener('click', function(event) {
     addItem.textContent = input.value;
     inserirPai.appendChild(addItem);
   
-    let addButtonRemover = document.createElement('button');
-    addButtonRemover.textContent = 'excluir';
-    addButtonRemover.id = 'js-delete';
-    excluirPai.appendChild(addButtonRemover);
+    // let addButtonRemover = document.createElement('button');
+    // addButtonRemover.textContent = 'excluir';
+    // addButtonRemover.id = 'js-delete';
+    // excluirPai.appendChild(addButtonRemover);
 });

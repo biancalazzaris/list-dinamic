@@ -1,35 +1,36 @@
-body {
+body, ul {
     margin: 0;
     padding: 0;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    background-color: #c3f8c3;
+
 }
 
-header {
+.all{
     display:flex;
-
     flex-direction: column;
     align-items: center;
 }
 
-.container{
-    border: blue 5px solid;
-    display: flex;
-    justify-content: center ;
 
+.list {
+    text-align: left;
+    width: 200px;
 }
 
-#js-ul, #remove {
-    list-style: none;
-    font-size: 24px;
-    text-align: initial;
-
+#js-btAdd{
+    color: #ffffff;
+    border-radius: 25px;
+    background-color: green;
+    width: 100px;
+    height: 30px;
 }
 
-#remove button{
-    font-size: 16px;
-
-    border: 2px green solid;
-    display: flex;
-    flex-direction: column;
-    margin: 10px 2px ;
+input {
+    width: 200px;
+    height: 25px;
+    border-color: green;
+    border-radius: 25px
 }
-
