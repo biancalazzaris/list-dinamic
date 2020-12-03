@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display:flex;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    border: blue 5px solid;
+    display: flex;
+    justify-content: center ;
+
+}
+
+#js-ul, #remove {
+    list-style: none;
+    font-size: 24px;
+    text-align: initial;
+
+}
+
+#remove button{
+    font-size: 16px;
+
+    border: 2px green solid;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 2px ;
+}
+
